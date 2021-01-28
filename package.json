@@ -1,0 +1,48 @@
+{
+  "name": "1-Passport-Example",
+  "version": "1.0.0",
+  "description": "![License Icon](https://img.shields.io/badge/license-GPL3.0-informational.svg)",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run lint",
+    "start": "node server.js",
+    "lint": "eslint --quiet .",
+    "fix": "eslint --fix .",
+    "watch": "nodemon server.js",
+    "seed": "node ./db/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.0",
+    "express-handlebars": "^5.2.0",
+    "express-handlebars-sections": "^1.0.1",
+    "express-session": "^1.16.1",
+    "mysql2": "^1.6.5",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^5.8.6"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.10.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "mocha": "^5.2.0",
+    "prettier": "1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LauraGwendolynBurch/Project_2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LauraGwendolynBurch/Project_2/issues"
+  },
+  "homepage": "https://github.com/LauraGwendolynBurch/Project_2#readme"
+}
