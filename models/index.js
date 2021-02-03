@@ -21,7 +21,7 @@ fs
   })
   .forEach(function(file) {
     var model = sequelize['import'](path.join(__dirname, file));
-    console.log("Model", model)
+    // console.log("Model", model)
     db[model.name] = model;
   });
 
