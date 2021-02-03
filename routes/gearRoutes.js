@@ -68,12 +68,6 @@ router.delete("/api/gear/:id", (req, res) => {
 // Update route for editing item values in the Gear
 router.put("/api/gear/:id", isAuthenticated, (req, res) => {
   db.Gear.update(req.body, {
-    itemName: req.body.itemName,
-    itemDescription: req.body.itemDescription,
-    itemWeight: req.body.itemWeight,
-    itemStorageLocation: req.body.itemStorageLocation,
-    itemQuantityInStorage: req.body.itemQuantityInStorage,
-    itemQuantityInPackingList: req.body.itemQuantityInPackingList,
     where: {
       id: req.params.id,
       UserId: req.user.id
