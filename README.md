@@ -1,8 +1,8 @@
-# Meili
+# All Gear Essiential
 
 ![License Icon](https://img.shields.io/badge/license-GPL3.0-informational.svg)
 
-A application that mySQL, Sequelize, Node.js and Handlebars to help you track and pack your outdoor gear.
+An application that mySQL, Sequelize, Node.js and Handlebars to help you track and pack your essential gear.
 
 ## Table of Contents
 
@@ -18,9 +18,9 @@ A application that mySQL, Sequelize, Node.js and Handlebars to help you track an
 
 ## Location
 
-Deployed Application Link: 
+Deployed Applications: [Personal Stretch Goal](https://allgearessential.herokuapp.com/) and [Team](https://secret-harbor-98103.herokuapp.com/)
 
-GitHub Repository Link: https://github.com/LauraGwendolynBurch/Project_2
+GitHub Repositories: [Personal Stretch Goal](https://github.com/supercodingninja/AllGearEssential) and [Team](https://github.com/LauraGwendolynBurch/Project_2)
 
 ## Demo
 
@@ -39,12 +39,9 @@ Use this...
 Following the usage instructions will allow for testing the functionality of the application. If no errors are thrown in the console and the application works, it's 'passing'.
 
 ## Contributors
-
-Laura Gwendolyn Burch - https://github.com/LauraGwendolynBurch
-Gavin Calkins - https://github.com/Gavin867
-Ilya Libershteyn - https://github.com/ilya-libershteyn
-Meagan Sheehan-James - https://github.com/merikettapearl212
-Frederick Thomas - https://github.com/supercodingninja
+[Frederick Thomas](https://github.com/supercodingninja)
+#### Earlier Contributions
+[Laura Gwendolyn Burch](https://github.com/LauraGwendolynBurch), [Gavin Calkins](https://github.com/Gavin867), [Ilya Libershteyn](https://github.com/ilya-libershteyn), and [Meagan Sheehan-James](https://github.com/merikettapearl212)
 
 ## Resources
 
@@ -58,9 +55,9 @@ Have questions? Contact...
 
 ## License
 
-    Meili. A application that mySQL, Sequelize, Node.js and Handlebars to help you track and pack your outdoor gear.
+    All Gear Essential. An application which uses mySQL, Sequelize, Node.js and Handlebars to help you track and pack your essential gear.
 
-    Copyright (C) 2021  Laura Gwendolyn Burch, Gavin B. Calkins, Ilya Libershteyn, Meagan Sheehan-James, Frederick Thomas 
+    Copyright (C) 2021  Frederick Thomas, Laura Gwendolyn Burch, Gavin B. Calkins, Ilya Libershteyn, and Meagan Sheehan-James. 
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
