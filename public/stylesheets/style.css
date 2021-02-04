@@ -48,7 +48,7 @@ body {
 */
 /* signup.handlebars (sign up page) */
 .class-signup {
-  background: linear-gradient(to bottom right,#013042, #167B6B);
+  background: url(../media/mtRainier.jpg);
   height: 100vh;
   color: rgba(255, 255, 255, 0.897);
 }
