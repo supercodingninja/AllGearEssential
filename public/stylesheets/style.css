@@ -49,6 +49,8 @@ body {
 /* signup.handlebars (sign up page) */
 .class-signup {
   background: url(../media/mtRainier.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   color: rgba(255, 255, 255, 0.897);
 }
