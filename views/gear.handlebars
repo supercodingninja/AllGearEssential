@@ -8,7 +8,8 @@
       </div>
     </div>
   </nav>
-  
+
+
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
@@ -31,13 +32,20 @@
         </tr>
       </thead>
 
-      <h2>Gear Inventory List</h2>
+      {{!-- <h2>Gear Inventory List</h2> --}}
       <ul>
+        
         {{#each gearData}}
-        <li>
-          {{dataValues.itemName}}
-          <button data-id={{id}} class="edit-item" type="submit" data-order="true">Edit</button>
-        </li>
+          <li>
+            <td>{{dataValues.itemName}}</td>
+            <td>{{dataValues.itemDescription}}</td>
+            <td>{{dataValues.itemWeight}}</td>
+            <td>{{dataValues.itemStorageLocation}}</td>
+            <td>{{dataValues.itemQuantityInStorage}}</td>
+            <td>{{dataValues.itemQuantityInPackingList}}</td>
+            
+            <button data-id={{id}} class="edit-item" type="submit" data-order="true">Edit</button>
+          </li>
         {{/each}}
       </ul>
   </table>
