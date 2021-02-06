@@ -1,7 +1,8 @@
 # All Gear Essiential
 
-![License Icon](https://img.shields.io/badge/license-GPL3.0-informational.svg) ![Badge](https://img.shields.io/badge/GitHub-Arctic%20Code%20Vault%20Contributor-brightgreen) ![Badge](https://img.shields.io/badge/GitHub-Pro%20%20%20-orange) [SuperCodingNinja](https://github.com/supercodingninja) •  [Email Me](mailto:SuperCodingNinja@outlook.com) •  [Re-doing Video Tutorial for social media]() •  [Google Doc Tutorial Re-turning, Soon]()
-#### ReverseEngineeringCode© 2021 All Rights Reserved.  MIT All material must be cited or credited, when using material (free to use).
+![License Icon](https://img.shields.io/badge/license-GPL3.0-informational.svg) ![Badge](https://img.shields.io/badge/GitHub-Arctic%20Code%20Vault%20Contributor-brightgreen) ![Badge](https://img.shields.io/badge/GitHub-Pro%20%20%20-orange) [SuperCodingNinja](https://github.com/supercodingninja) •  [Email Me](mailto:SuperCodingNinja@outlook.com)
+#### AllGearEssential
+© 2021 All Rights Reserved.  GPL3.0 All material must be cited or credited, when using material (free to use).
 
 An application that mySQL, Sequelize, Node.js and Handlebars to help you track and pack your essential gear.
 
@@ -77,19 +78,21 @@ I hope this repository helps you along your development.  Stay on task, Get Ahea
 
 ## License
 ###### [Back to Table of Contents](#Table-of-Contents)
-    All Gear Essential. An application which uses mySQL, Sequelize, Node.js and Handlebars to help you track and pack your essential gear.
+![License Icon](https://img.shields.io/badge/license-GPL3.0-informational.svg
 
-    Copyright (C) 2021  Frederick Thomas, Laura Gwendolyn Burch, Gavin B. Calkins, Ilya Libershteyn, and Meagan Sheehan-James. 
+All Gear Essential. An application which uses mySQL, Sequelize, Node.js and Handlebars to help you track and pack your essential gear.
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+Copyright (C) 2021  Frederick Thomas, Laura Gwendolyn Burch, Gavin B. Calkins, Ilya Libershteyn, and Meagan Sheehan-James. 
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
