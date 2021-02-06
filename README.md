@@ -1,6 +1,6 @@
 # All Gear Essiential
 
-![License Icon](https://img.shields.io/badge/license-GPL3.0-informational.svg) ![Badge](https://img.shields.io/badge/GitHub-Arctic%20Code%20Vault%20Contributor-brightgreen) ![Badge](https://img.shields.io/badge/GitHub-Pro%20Code%20Vault%20Pro-orange) [SuperCodingNinja](https://github.com/supercodingninja) •  [Email Me](mailto:SuperCodingNinja@outlook.com) •  [Re-doing Video Tutorial for social media]() •  [Google Doc Tutorial Re-turning, Soon]()
+![License Icon](https://img.shields.io/badge/license-GPL3.0-informational.svg) ![Badge](https://img.shields.io/badge/GitHub-Arctic%20Code%20Vault%20Contributor-brightgreen) ![Badge](https://img.shields.io/badge/GitHub%20Pro-orange) [SuperCodingNinja](https://github.com/supercodingninja) •  [Email Me](mailto:SuperCodingNinja@outlook.com) •  [Re-doing Video Tutorial for social media]() •  [Google Doc Tutorial Re-turning, Soon]()
 #### ReverseEngineeringCode© 2021 All Rights Reserved.  MIT All material must be cited or credited, when using material (free to use).
 
 An application that mySQL, Sequelize, Node.js and Handlebars to help you track and pack your essential gear.
