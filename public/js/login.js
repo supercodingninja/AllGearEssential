@@ -1,7 +1,6 @@
 $(document).ready(() => {
   // Getting references to our form and inputs
   const loginForm = $("#login");
-  const userInput = $("#user-input");
   const emailInput = $("#email-input");
   const passwordInput = $("#password-input");
 
@@ -9,26 +8,23 @@ $(document).ready(() => {
   loginForm.on("submit", event => {
     event.preventDefault();
     const userData = {
-      user: userInput.val().trim(),
       email: emailInput.val().trim(),
       password: passwordInput.val().trim()
     };
 
-    if (!userData.user || !userData.email || !userData.password) {
+    if (!userData.email || !userData.password) {
       return;
     }
 
-    // If we have the user's name, email, and password: then we can run the loginUser function and clear the form
-    loginUser(userData.user, userData.email, userData.password);
-    userInput.val("");
+    // If we have an email and password we run the loginUser function and clear the form
+    loginUser(userData.email, userData.password);
     emailInput.val("");
     passwordInput.val("");
   });
 
-  // loginUser does a post to our "api/login" route and if successful, redirects us to the the gear page
+  // loginUser does a post to our "api/login" route and if successful, redirects us the the gear page
   function loginUser(email, password) {
     $.post("/api/login", {
-      user: user,
       email: email,
       password: password
     })
