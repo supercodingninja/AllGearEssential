@@ -40,11 +40,11 @@
       <div class="col-sm-1">
         <input type="text" class="form-control" id="itemWeight" placeholder="Wgt." style="text-align: center;">
           <select class="custom-select" id="itemWeight" placeholder="Wgt." style="text-align: center" required>
-            <option value="">Measurement</option>
-            <option value="pounds">lb(s).</option>
-            <option value="oz">oz.</option>
-            <option value="g">g.</option>
-            <option value="kg">kg.</option>
+            <option class="itemWgtMeasure" value="">Measurement</option>
+            <option class="itemWgtMeasure" value="pounds">lb(s).</option>
+            <option class="itemWgtMeasure" value="oz">oz.</option>
+            <option class="itemWgtMeasure" value="g">g.</option>
+            <option class="itemWgtMeasure" value="kg">kg.</option>
           </select>
       </div>
   
@@ -158,7 +158,9 @@
       {{#each gearData}}
         <tr style="color: rgba(221, 221, 221, 1);">
           <td>{{dataValues.itemName}}</td>
+          
           <td>
+          
             <button style="opacity: 0.5" type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">
               Description
             </button>
@@ -194,9 +196,31 @@
           </td>
 
           <td>{{dataValues.itemWeight}}</td>
+          <td>{{dataValues.itemWgtMeasure}}</td>
           <td>{{dataValues.itemStorageLocation}}</td>
           <td>{{dataValues.itemQuantityInStorage}}</td>
           <td>{{dataValues.itemQuantityInPackingList}}</td>
+          <td>
+            <button dataId={{dataValues.id}} class="btn btn-danger" onclick="document.getElementById('remove').style.display='block'">Delete</button>
+            
+            <div id="remove" class="modal">
+              <span onclick="document.getElementById('remove').style.display='none'" class="close" title="Close Modal">
+                &times;
+              </span>
+              
+              <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                  <h1>Delete</h1>
+                  <p>Are you sure you want to delete your item?</p>
+
+                  <div class="clearfix">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <button id="remove" type="reset" value="Reset" class="deletebtn" role="button">Delete</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </td>
         </tr>
       {{/each}}
     </tbody>
@@ -205,4 +229,21 @@
 
 {{#section 'scripts'}}
 <script type="text/javascript" src="js/gear.js"></script>
+
+<script>
+  var div = document.getElementById('remove');
+
+function removeHobby() {
+  button.innerHTML = 'Delete';
+  // attach onlick event handler to remove button
+  button.onclick = removeHobby;
+
+  // remove this button and its input
+  div.removeChild(this.previousElementSibling);
+  div.removeChild(this);
+}
+
+// attach onclick event handler to 1st remove button
+document.getElementById('remove').addEventListener('click', removeHobby);
+</script>
 {{/section}}

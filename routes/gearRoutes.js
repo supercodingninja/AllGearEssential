@@ -44,6 +44,7 @@ router.post("/api/gear", isAuthenticated, (req, res) => {
     itemName: req.body.itemName,
     itemDescription: req.body.itemDescription,
     itemWeight: req.body.itemWeight,
+    itemWgtMeasure: req.body.itemWgtMeasure,
     itemStorageLocation: req.body.itemStorageLocation,
     itemQuantityInStorage: req.body.itemQuantityInStorage,
     itemQuantityInPackingList: req.body.itemQuantityInPackingList,
