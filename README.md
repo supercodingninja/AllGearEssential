@@ -31,6 +31,9 @@ GitHub Repositories: [Personal Stretch Goal](https://github.com/supercodingninja
 1.  Ensure that your application includes the require dependacies, by typing the commnd in your integrated terminal "npm install inquirer".
 2.  Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub.
 3.  Run “node [fileName].js”
+4.  Run "npm i."
+5.  Run "npm start."
+6.  Click on localHost, and view in browser.
 
 ## Usage Information
 ###### [Back to Table of Contents](#Table-of-Contents)
