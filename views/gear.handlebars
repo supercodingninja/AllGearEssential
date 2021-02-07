@@ -39,7 +39,7 @@
       {{!-- <label for="itemWeight">itemWeight</label> --}}
       <div class="col-sm-1">
         <input type="text" class="form-control" id="itemWeight" placeholder="Wgt." style="text-align: center;">
-          <select class="custom-select" id="itemWeight" placeholder="Wgt." style="text-align: center" required>
+          <select class="custom-select" id="itemWgtMeasure" placeholder="Wgt." style="text-align: center" required>
             <option class="itemWgtMeasure" value="">Measurement</option>
             <option class="itemWgtMeasure" value="pounds">lb(s).</option>
             <option class="itemWgtMeasure" value="oz">oz.</option>
@@ -146,6 +146,7 @@
         <th class="item">Item</th>
         <th class="type">Description</th>
         <th class="type">Wgt.</th>
+        <th class="type">Measure</th>
         <th class="item">Storage Location</th>
         <th class="onhand">Qty. On Hand</th>
         <th class="packed">Qty. Packed</th>
@@ -156,7 +157,7 @@
     <tbody>
       
       {{#each gearData}}
-        <tr style="color: rgba(221, 221, 221, 1);">
+        <tr id="myRow" style="color: rgba(221, 221, 221, 1);">
           <td>{{dataValues.itemName}}</td>
           
           <td>
