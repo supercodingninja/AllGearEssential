@@ -23,7 +23,7 @@ GitHub Repositories: [Personal Stretch Goal](https://github.com/supercodingninja
 
 ## Demo
 ###### [Back to Table of Contents](#Table-of-Contents)
-![PullRequest](https://youtu.be/JKAUO3NEhJE)
+<a href="https://www.youtube.com/watch?v=JKAUO3NEhJE&feature=youtu.be" alt="Page hyperlink to 'Introduction' section." title="Hi!" target="_blank"><img align="left" src="https://www.youtube.com/watch?v=JKAUO3NEhJE&feature=youtu.be" alt="Pull Request" append=100x20/>Pull Request</a>
 
 ## Installation
 ###### [Back to Table of Contents](#Table-of-Contents)
