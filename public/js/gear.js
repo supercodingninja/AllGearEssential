@@ -4,6 +4,8 @@ $(document).ready(() => {
   const itemName = $("#itemName");
   const itemDescription = $("#itemDescription");
   const itemWeight = $("#itemWeight");
+  const itemWgtMeasure = $("#itemWgtMeasure");
+  
   const itemStorageLocation = $("#itemStorageLocation");
   const itemQuantityInStorage = $("#itemQuantityInStorage");
   const itemQuantityInPackingList = $("#itemQuantityInPackingList");
@@ -13,14 +15,17 @@ $(document).ready(() => {
     if (!itemName.val().trim()) {
       return;
     }
+    alert(itemWgtMeasure.val())
     const data = {
       itemName: itemName.val(),
       itemDescription: itemDescription.val(),
       itemWeight: itemWeight.val(),
+      itemWgtMeasure: itemWgtMeasure.val(),
       itemStorageLocation: itemStorageLocation.val(),
       itemQuantityInStorage: itemQuantityInStorage.val(),
       itemQuantityInPackingList: itemQuantityInPackingList.val()
     };
+    console.log(data);
     $.post("/api/gear", data).then(gear => {
       location.reload();
       console.log(gear);
