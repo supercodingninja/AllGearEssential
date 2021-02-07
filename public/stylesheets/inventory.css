@@ -11,3 +11,8 @@ body {
     align-items: center;
     align-content: center;
 }
+
+#myRow {
+    background-color: rgba(0,0,0,.5);
+    color: ivory;
+}
