@@ -23,7 +23,7 @@ GitHub Repositories: [Personal Stretch Goal](https://github.com/supercodingninja
 
 ## Demo
 ###### [Back to Table of Contents](#Table-of-Contents)
-<img src="/public/media/Pull Request.gif"/>
+<a href="https://youtu.be/JKAUO3NEhJE" alt="Page hyperlink to 'Introduction' section." title="PullRequest" target="_blank"><img align="center" src="https://youtu.be/JKAUO3NEhJE" alt="Pull request in live project."/>Pull Request</a>
 
 
 ## Installation

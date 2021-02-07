@@ -40,6 +40,7 @@ router.get("/api/gear/packed", isAuthenticated, (req, res) => {
 
 // POST route for adding new item (row) to Gear
 router.post("/api/gear", isAuthenticated, (req, res) => {
+ console.log(req.body)
   db.Gear.create({
     itemName: req.body.itemName,
     itemDescription: req.body.itemDescription,
