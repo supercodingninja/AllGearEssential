@@ -24,7 +24,7 @@ const userSeeds = [
 
 const gearSeeds = [
   {
-    : "Bob's Compass",
+    itemName: "Bob's Compass",
     itemDescription: "Cammenga Tritium Compass 3H",
     itemWeight: 4,
     itemWgtMeasure: "lb(s)",
@@ -34,7 +34,7 @@ const gearSeeds = [
     UserId: 1
   },
   {
-    : "Bob's Map",
+    itemName: "Bob's Map",
     itemDescription: "1:20,0000 Lat-Long of Mt. St. Helens",
     itemWeight: 1,
     itemWgtMeasure: "lb(s)",
@@ -44,7 +44,7 @@ const gearSeeds = [
     UserId: 1
   },
   {
-    : "Bob's Backpack",
+    itemName: "Bob's Backpack",
     itemDescription: "Mountain Hardwear Grotto 35L",
     itemWeight: 42,
     itemWgtMeasure: "lb(s)",
@@ -54,7 +54,7 @@ const gearSeeds = [
     UserId: 1
   },
   {
-    : "John's Compass",
+    itemName: "John's Compass",
     itemDescription: "Cammenga Tritium Compass 3H",
     itemWeight: 4,
     itemWgtMeasure: "lb(s)",
@@ -64,7 +64,7 @@ const gearSeeds = [
     UserId: 2
   },
   {
-    : "John's Map",
+    itemName: "John's Map",
     itemDescription: "1:50,000 MGRS WGS84 of Mt. Rainier",
     itemWeight: 1,
     itemWgtMeasure: "lb(s)",
@@ -74,7 +74,7 @@ const gearSeeds = [
     UserId: 2
   },
   {
-    : "John's Backpack",
+    itemName: "John's Backpack",
     itemDescription: "Camp 4 28 Backpack",
     itemWeight: 42,
     itemWgtMeasure: "lb(s)",
