@@ -1,6 +1,6 @@
 # All Gear Essiential
 
-![License Icon](https://img.shields.io/badge/license-GPL3.0-informational.svg) ![Badge](https://img.shields.io/badge/GitHub-Arctic%20Code%20Vault%20Contributor-brightgreen) ![Badge](https://img.shields.io/badge/GitHub-Pro%20%20%20-orange) [SuperCodingNinja](https://github.com/supercodingninja) •  [Email Me](mailto:SuperCodingNinja@outlook.com)
+![License Icon](https://img.shields.io/badge/license-GPL3.0-informational.svg) ![Badge](https://img.shields.io/badge/GitHub-Arctic%20Code%20Vault%20Contributor-brightgreen) ![Badge](https://img.shields.io/badge/GitHub-Pro%20%20%20-orange) [SuperCodingNinja](https://github.com/supercodingninja) •  [Email Me](mailto:SuperCodingNinja@outlook.com) •  [Facebook](https://www.facebook.com/SuperCodingNinja)
 #### AllGearEssential© 2021 All Rights Reserved.  GPL3.0 All material must be cited or credited, when using material (free to use).  An application that mySQL, Sequelize, Node.js and Handlebars to help you track and pack your essential gear.
 
 ## Table of Contents
