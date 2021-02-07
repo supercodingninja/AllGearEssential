@@ -23,7 +23,6 @@ module.exports = function(sequelize, DataTypes) {
     itemWgtMeasure: {
       type: DataTypes.STRING,
       allowNull: false
-      
     },
     itemStorageLocation: {
       type: DataTypes.TEXT,

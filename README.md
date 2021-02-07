@@ -23,7 +23,18 @@ GitHub Repositories: [Personal Stretch Goal](https://github.com/supercodingninja
 
 ## Demo
 ###### [Back to Table of Contents](#Table-of-Contents)
-<a href="https://youtu.be/JKAUO3NEhJE" alt="Page hyperlink to 'Introduction' section." title="PullRequest" target="_blank"><img align="center" src="https://youtu.be/JKAUO3NEhJE" alt="Pull request in live project."/>Pull Request</a>
+
+### Video: Pull Request During Group Project 👇🏿
+<a href="https://youtu.be/JKAUO3NEhJE" alt="Page hyperlink to 'Introduction' section." title="PullRequest" target="_blank"><img align="center" src="/public/media//pullRequest.png" alt="Pull request in live project." width="100%"/></a>
+
+### Travis Denies Merege Request
+![Travis](public/media/TravisDenies.png)
+
+### Trouble-shooting: Modal Has Incorrect Data Type
+![Incorrect](public/media/incorrectDataType.png)
+
+### Solution: Modal Given Correct Data Type
+![Correct](public/media/correctDataType.png)
 
 
 ## Installation
