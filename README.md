@@ -5,7 +5,7 @@
 
 ## Table of Contents
 
-- [Location](#location)
+- [Deployment](#deployment)
 - [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -15,7 +15,7 @@
 - [Point of Contact](#point-of-contact)
 - [License](#license)
 
-## Location
+## Deployment
 ###### [Back to Table of Contents](#Table-of-Contents)
 Deployed Applications: [Personal Stretch Goal](https://allgearessential.herokuapp.com/) and [Team](https://secret-harbor-98103.herokuapp.com/)
 
