@@ -5,15 +5,15 @@
 
 ## Table of Contents
 
-- [Deployment](#deployment)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
-- [Contributors](#contributors)
-- [Resources](#resources)
-- [Point of Contact](#point-of-contact)
-- [License](#license)
+[Deployment](#deployment)
+[Demo](#demo)
+[Installation](#installation)
+[Usage](#usage)
+[Testing](#testing)
+[Contributors](#contributors)
+[Resources](#resources)
+[Point of Contact](#point-of-contact)
+[License](#license)
 
 ## Deployment
 ###### [Back to Table of Contents](#Table-of-Contents)
