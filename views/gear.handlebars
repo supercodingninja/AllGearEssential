@@ -162,7 +162,7 @@
           
           <td>
           
-            <button style="opacity: 0.5" type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">
+            <button style="opacity: 0.5" type="button" class="descriptionBtn btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" data-id={{dataValues.id}} data-description={{dataValues.itemDescription}}>
               Description
             </button>
 
@@ -179,13 +179,13 @@
                   <div class="modal-body">
                     <div class="form-group">
                       <label for="editDescription">View/Edit Description</label>
-                      <input type="tel"  name="mobilePhone" class="form-control" id="editDescription" placeholder="{{ dataValues.itemDescription }}" required>
+                      <input type="tel"  name="mobilePhone" class="form-control" id="editDescription" required>
                     </div>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-                    <button type="button" id="saveModalButton" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                    <button type="button" data-id={{dataValues.id}} id="saveModalButton" class="btn btn-primary" data-dismiss="modal">Save changes</button>
                     
                     {{!-- <div class="col-sm-2">
                       <button type="button" class="btn btn-sm btn-primary fas fa-pencil-alt noUnderlineCustom text-white" data-toggle="modal" data-target="#editModal">Edit</button>

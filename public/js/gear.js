@@ -14,7 +14,7 @@ $(document).ready(() => {
     if (!itemName.val().trim()) {
       return;
     }
-    alert(itemWgtMeasure.val())
+    alert(itemWgtMeasure.val());
     const data = {
       itemName: itemName.val(),
       itemDescription: itemDescription.val(),
@@ -33,4 +33,23 @@ $(document).ready(() => {
   $.get("/api/user_data").then(data => {
     $(".member-name").text(data.email);
   });
+});
+$("#saveModalButton").on("click", function() {
+  const newDescription = {
+    itemDescription: $("#editDescription").val()
+  };
+  const id = $(this).attr("data-id");
+  $.ajax({
+    url: "/api/gear/" + id,
+    method: "PUT",
+    data: newDescription
+  }).then(res => {
+    console.log(res);
+  });
+});
+$(".descriptionBtn").on("click", function() {
+  const description = $(this).attr("data-description");
+  const id = $(this).attr("data-id");
+  $("#editDescription").val(description);
+  $("#saveModalButton").attr("data-id", id);
 });
