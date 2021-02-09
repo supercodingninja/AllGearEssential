@@ -6,7 +6,7 @@
 ## Table of Contents
 * [Repository Description](#Repository-Description)
 * [Deployment](#deployment)
-* [Demo](#demo)
+* [Demostration and Build](#demo)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Testing](#testing)
@@ -25,10 +25,15 @@ Deployed Applications: [Personal Stretch Goal](https://allgearessential.herokuap
 
 GitHub Repositories: [Personal Stretch Goal](https://github.com/supercodingninja/AllGearEssential) and [Team](https://github.com/LauraGwendolynBurch/Project_2)
 
-## Demo
+## Demostration and Build
 ###### [Back to Table of Contents](#Table-of-Contents)
+### Program Presentation: Slide Que 👇🏿
+<a href="public/media/Program Presentation.pptx" alt="Program Presentation" title="PullRequest" target="_blank"><img align="center" src="public/media/pexels-benjamin-suter-3617500.jpg" alt="Application Walk-through" width="100%"/></a>
+
+&nbsp;
+
 ### Video: Application Walk-through 👇🏿
-<a href="https://www.youtube.com/watch?v=SznfKe-Axss&feature=youtu.be" alt="Application Walk-through" title="PullRequest" target="_blank"><img align="center" src="public/media/inventorybg.jpg" alt="Application Walk-through" width="100%"/></a>
+<a href="https://www.youtube.com/watch?v=SznfKe-Axss&feature=youtu.be" alt="Application Walk-through" title="Demo" target="_blank"><img align="center" src="public/media/inventorybg.jpg" alt="Application Walk-through" width="100%"/></a>
 
 &nbsp;
 
