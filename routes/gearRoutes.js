@@ -1,12 +1,14 @@
 const express = require("express");
 const db = require("../models");
 const router = express.Router();
+
 // Requiring our custom middleware for checking if a user is logged in
 const isAuthenticated = require("../config/middleware/isAuthenticated");
+
 // Needed to for column comparison
 const { Op } = require("sequelize");
 
-// // Gear Routes
+// Gear Routes
 // GET route for displaying all items in Gear (and their associated values)
 router.get("/api/gear", isAuthenticated, (req, res) => {
   console.log("Entering GET method");
