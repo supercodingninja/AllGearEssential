@@ -1,250 +1,252 @@
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="/logout">
-          Logout
-        </a>
+<body class="gearPage">
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/logout">
+            Logout
+          </a>
+        </div>
       </div>
-    </div>
-</nav>
+  </nav>
 
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-      <h2>Welcome <span class="member-name"></span></h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h2>Welcome <span class="member-name"></span></h2>
+      </div>
     </div>
   </div>
-</div>
 
 
-{{!-- How I will get my data to populate. --}}
-<form id="createForm">
-  {{!-- <div>
-    <p>Add a new item to your inventory</p>
-  </div> --}}
+  {{!-- How I will get my data to populate. --}}
+  <form id="createForm">
+    {{!-- <div>
+      <p>Add a new item to your inventory</p>
+    </div> --}}
 
-  <div class="form-group">
-    <div class="form-row">
-      {{!-- <label for="itemName">Item Name</label> --}}
-      <div class="col-sm-1">
-        <input type="text" class="form-control" id="itemName" placeholder="Item" style="text-align: center;">
-      </div>
+    <div class="form-group">
+      <div class="form-row">
+        {{!-- <label for="itemName">Item Name</label> --}}
+        <div class="col-sm-1">
+          <input type="text" class="form-control" id="itemName" placeholder="Item" style="text-align: center;">
+        </div>
 
-      {{!-- <label for="itemDescription">itemDescription</label> --}}
-      <div class="col-sm-2">
-        <input type="text" class="form-control" id="itemDescription" placeholder="Description" style="text-align: center;">
-      </div>
-  
-      {{!-- <label for="itemWeight">itemWeight</label> --}}
-      <div class="col-sm-1">
-        <input type="text" class="form-control" id="itemWeight" placeholder="Wgt." style="text-align: center;">
-          <select class="custom-select" id="itemWgtMeasure" placeholder="Wgt." style="text-align: center" required>
-            <option class="itemWgtMeasure" value="">Measurement</option>
-            <option class="itemWgtMeasure" value="pounds">lb(s).</option>
-            <option class="itemWgtMeasure" value="oz">oz.</option>
-            <option class="itemWgtMeasure" value="g">g.</option>
-            <option class="itemWgtMeasure" value="kg">kg.</option>
-          </select>
-      </div>
-  
-      {{!-- <label for="itemStorageLocation">itemStorageLocation</label> --}}
-      <div class="col-sm-3">
-        {{!-- Qty. In Storage Number Selection --}}
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <input type="text" class="form-control" id="itemStorageLocation" placeholder="Storage Location" style="text-align: center;">
-            
-            {{!-- Item Quantity In Storage --}}
-            <span class="input-group-text" id="validationTooltipUsernamePrepend">
-              <select class="custom-select" id="itemQuantityInStorage" placeholder="Qty. In Storage" style="text-align: center" required>
-                <option value="">Storage Qty.</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-                <option value="13">13</option>
-                <option value="14">14</option>
-                <option value="15">15</option>
-                <option value="16">16</option>
-                <option value="17">17</option>
-                <option value="18">18</option>
-                <option value="19">19</option>
-                <option value="20">20</option>
-                <option value="21">21</option>
-                <option value="22">22</option>
-                <option value="23">23</option>
-                <option value="24">24</option>
-                <option value="25">25</option>
-                <option value="26">26</option>
-                <option value="27">27</option>
-                <option value="28">28</option>
-                <option value="29">29</option>
-                <option value="30">30</option>
-              </select>
-            </span>
+        {{!-- <label for="itemDescription">itemDescription</label> --}}
+        <div class="col-sm-2">
+          <input type="text" class="form-control" id="itemDescription" placeholder="Description" style="text-align: center;">
+        </div>
+    
+        {{!-- <label for="itemWeight">itemWeight</label> --}}
+        <div class="col-sm-1">
+          <input type="text" class="form-control" id="itemWeight" placeholder="Wgt." style="text-align: center;">
+            <select class="custom-select" id="itemWgtMeasure" placeholder="Wgt." style="text-align: center" required>
+              <option class="itemWgtMeasure" value="">Measurement</option>
+              <option class="itemWgtMeasure" value="pounds">lb(s).</option>
+              <option class="itemWgtMeasure" value="oz">oz.</option>
+              <option class="itemWgtMeasure" value="g">g.</option>
+              <option class="itemWgtMeasure" value="kg">kg.</option>
+            </select>
+        </div>
+    
+        {{!-- <label for="itemStorageLocation">itemStorageLocation</label> --}}
+        <div class="col-sm-3">
+          {{!-- Qty. In Storage Number Selection --}}
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <input type="text" class="form-control" id="itemStorageLocation" placeholder="Storage Location" style="text-align: center;">
+              
+              {{!-- Item Quantity In Storage --}}
+              <span class="input-group-text" id="validationTooltipUsernamePrepend">
+                <select class="custom-select" id="itemQuantityInStorage" placeholder="Qty. In Storage" style="text-align: center" required>
+                  <option value="">Storage Qty.</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                </select>
+              </span>
 
-            {{!-- Item Quantity In Packing List --}}
-            <span class="input-group-text" id="validationTooltipUsernamePrepend">
-              <select class="custom-select" id="itemQuantityInPackingList" placeholder="Qty. In Packing List" style="text-align: center" required>
-                <option value="">Packing List Qty.</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-                <option value="13">13</option>
-                <option value="14">14</option>
-                <option value="15">15</option>
-                <option value="16">16</option>
-                <option value="17">17</option>
-                <option value="18">18</option>
-                <option value="19">19</option>
-                <option value="20">20</option>
-                <option value="21">21</option>
-                <option value="22">22</option>
-                <option value="23">23</option>
-                <option value="24">24</option>
-                <option value="25">25</option>
-                <option value="26">26</option>
-                <option value="27">27</option>
-                <option value="28">28</option>
-                <option value="29">29</option>
-                <option value="30">30</option>
-              </select>
-            </span>
+              {{!-- Item Quantity In Packing List --}}
+              <span class="input-group-text" id="validationTooltipUsernamePrepend">
+                <select class="custom-select" id="itemQuantityInPackingList" placeholder="Qty. In Packing List" style="text-align: center" required>
+                  <option value="">Packing List Qty.</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                </select>
+              </span>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</form>
+  </form>
 
 
-{{!-- Where the data will populate. --}}
-<table class="table table-hover">
-  <tr class="tableTitle">
-    <thead>
-      <tr class="thead-dark" style="opacity: 0.5;">
-        <th class="item">Item</th>
-        <th class="type">Description</th>
-        <th class="type">Wgt.</th>
-        <th class="type">Measure</th>
-        <th class="item">Storage Location</th>
-        <th class="onhand">Qty. On Hand</th>
-        <th class="packed">Qty. Packed</th>
-      </tr>
-    </thead>
+  {{!-- Where the data will populate. --}}
+  <table class="table table-hover">
+    <tr class="tableTitle">
+      <thead>
+        <tr class="thead-dark" style="opacity: 0.5;">
+          <th class="item">Item</th>
+          <th class="type">Description</th>
+          <th class="type">Wgt.</th>
+          <th class="type">Measure</th>
+          <th class="item">Storage Location</th>
+          <th class="onhand">Qty. On Hand</th>
+          <th class="packed">Qty. Packed</th>
+        </tr>
+      </thead>
 
-    {{!-- <h2>Gear Inventory List</h2> --}}
-    <tbody>
-      
-      {{#each gearData}}
-        <tr id="myRow" style="color: rgba(221, 221, 221, 1);">
-          <td>{{dataValues.itemName}}</td>
-          
-          <td>
-          
-            <button style="opacity: 0.5" type="button" class="descriptionBtn btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" data-id={{dataValues.id}} data-description={{dataValues.itemDescription}}>
-              Description
-            </button>
+      {{!-- <h2>Gear Inventory List</h2> --}}
+      <tbody>
+        
+        {{#each gearData}}
+          <tr id="myRow" style="color: rgba(221, 221, 221, 1);">
+            <td>{{dataValues.itemName}}</td>
+            
+            <td>
+            
+              <button style="opacity: 0.5" type="button" class="descriptionBtn btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" data-id={{dataValues.id}} data-description={{dataValues.itemDescription}}>
+                Description
+              </button>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Full Description</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="form-group">
-                      <label for="editDescription">View/Edit Description</label>
-                      <input type="tel"  name="mobilePhone" class="form-control" id="editDescription" required>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Full Description</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
                     </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <div class="modal-body">
+                      <div class="form-group">
+                        <label for="editDescription">View/Edit Description</label>
+                        <input type="tel"  name="mobilePhone" class="form-control" id="editDescription" required>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-                    <button type="button" data-id={{dataValues.id}} id="saveModalButton" class="btn btn-primary" data-dismiss="modal">Save changes</button>
-                    
-                    {{!-- <div class="col-sm-2">
-                      <button type="button" class="btn btn-sm btn-primary fas fa-pencil-alt noUnderlineCustom text-white" data-toggle="modal" data-target="#editModal">Edit</button>
-                    </div> --}}
+                      <button type="button" data-id={{dataValues.id}} id="saveModalButton" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                      
+                      {{!-- <div class="col-sm-2">
+                        <button type="button" class="btn btn-sm btn-primary fas fa-pencil-alt noUnderlineCustom text-white" data-toggle="modal" data-target="#editModal">Edit</button>
+                      </div> --}}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </td>
+            </td>
 
-          <td>{{dataValues.itemWeight}}</td>
-          <td>{{dataValues.itemWgtMeasure}}</td>
-          <td>{{dataValues.itemStorageLocation}}</td>
-          <td>{{dataValues.itemQuantityInStorage}}</td>
-          <td>{{dataValues.itemQuantityInPackingList}}</td>
-          <td>
-            <button dataId={{dataValues.id}} class="btn btn-danger" onclick="document.getElementById('remove').style.display='block'">Delete</button>
-            
-            <div id="remove" class="modal">
-              <span onclick="document.getElementById('remove').style.display='none'" class="close" title="Close Modal">
-                &times;
-              </span>
+            <td>{{dataValues.itemWeight}}</td>
+            <td>{{dataValues.itemWgtMeasure}}</td>
+            <td>{{dataValues.itemStorageLocation}}</td>
+            <td>{{dataValues.itemQuantityInStorage}}</td>
+            <td>{{dataValues.itemQuantityInPackingList}}</td>
+            <td>
+              <button dataId={{dataValues.id}} class="btn btn-danger" onclick="document.getElementById('remove').style.display='block'">Delete</button>
               
-              <form class="modal-content" action="/action_page.php">
-                <div class="container">
-                  <h1>Delete</h1>
-                  <p>Are you sure you want to delete your item?</p>
+              <div id="remove" class="modal">
+                <span onclick="document.getElementById('remove').style.display='none'" class="close" title="Close Modal">
+                  &times;
+                </span>
+                
+                <form class="modal-content" action="/action_page.php">
+                  <div class="container">
+                    <h1>Delete</h1>
+                    <p>Are you sure you want to delete your item?</p>
 
-                  <div class="clearfix">
-                    <button type="button" class="cancelbtn">Cancel</button>
-                    <button id="remove" type="reset" value="Reset" class="deletebtn" role="button">Delete</button>
+                    <div class="clearfix">
+                      <button type="button" class="cancelbtn">Cancel</button>
+                      <button id="remove" type="reset" value="Reset" class="deletebtn" role="button">Delete</button>
+                    </div>
                   </div>
-                </div>
-              </form>
-            </div>
-          </td>
-        </tr>
-      {{/each}}
-    </tbody>
-</table>
+                </form>
+              </div>
+            </td>
+          </tr>
+        {{/each}}
+      </tbody>
+  </table>
 
 
-{{#section 'scripts'}}
-<script type="text/javascript" src="js/gear.js"></script>
+  {{#section 'scripts'}}
+  <script type="text/javascript" src="js/gear.js"></script>
 
-<script>
-  var div = document.getElementById('remove');
+  <script>
+    var div = document.getElementById('remove');
 
-function removeHobby() {
-  button.innerHTML = 'Delete';
-  // attach onlick event handler to remove button
-  button.onclick = removeHobby;
+  function removeHobby() {
+    button.innerHTML = 'Delete';
+    // attach onlick event handler to remove button
+    button.onclick = removeHobby;
 
-  // remove this button and its input
-  div.removeChild(this.previousElementSibling);
-  div.removeChild(this);
-}
+    // remove this button and its input
+    div.removeChild(this.previousElementSibling);
+    div.removeChild(this);
+  }
 
-// attach onclick event handler to 1st remove button
-document.getElementById('remove').addEventListener('click', removeHobby);
-</script>
-{{/section}}
+  // attach onclick event handler to 1st remove button
+  document.getElementById('remove').addEventListener('click', removeHobby);
+  </script>
+  {{/section}}
+</body>
