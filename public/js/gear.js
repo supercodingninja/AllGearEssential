@@ -5,7 +5,6 @@ $(document).ready(() => {
   const itemDescription = $("#itemDescription");
   const itemWeight = $("#itemWeight");
   const itemWgtMeasure = $("#itemWgtMeasure");
-  
   const itemStorageLocation = $("#itemStorageLocation");
   const itemQuantityInStorage = $("#itemQuantityInStorage");
   const itemQuantityInPackingList = $("#itemQuantityInPackingList");
