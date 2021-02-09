@@ -6,7 +6,7 @@ form.login {
 /* index.handlebars (Landing page) styling */
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap"); 
 
-body {
+.intro {
   background: url(../media/mtRainier.jpg);
   background-repeat: no-repeat;
   background-size: cover;
