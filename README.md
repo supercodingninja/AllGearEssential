@@ -97,7 +97,7 @@ This is a book about JavaScript, programming, and digital wonders. Read it onlin
 
 ## Point of Contact
 ###### [Back to Table of Contents](#Table-of-Contents)
-I hope this repository helps you along your development.  Stay on task, Get Ahead, Change The World! * [Frederick Thomas](https://www.linkedin.com/in/discoverfrederickthomas/), Super Coding Ninja™
+I hope this repository helps you along your development.  Stay on task, Get Ahead, Change The World! - [Frederick Thomas](https://www.linkedin.com/in/discoverfrederickthomas/), Super Coding Ninja™
 
 ## License
 ###### [Back to Table of Contents](#Table-of-Contents)
