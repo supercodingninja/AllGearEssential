@@ -4,16 +4,20 @@
 #### AllGearEssential© 2021 All Rights Reserved.  GPL3.0 All material must be cited or credited, when using material (free to use).  An application that mySQL, Sequelize, Node.js and Handlebars to help you track and pack your essential gear.
 
 ## Table of Contents
+* [Repository Description](#Repository-Description)
+* [Deployment](#deployment)
+* [Demo](#demo)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Testing](#testing)
+* [Contributions and Guidelines](#contributions)
+* [Resources](#resources)
+* [Point of Contact](#point-of-contact)
+* [License](#license)
 
-###  [Deployment](#deployment)
-###  [Demo](#demo)
-###  [Installation](#installation)
-###  [Usage](#usage)
-###  [Testing](#testing)
-###  [Contributors](#contributors)
-###  [Resources](#resources)
-###  [Point of Contact](#point-of-contact)
-###  [License](#license)
+# Repository Description
+###### [Back to Table of Contents](#Table-of-Contents)
+We live in a busy world; and taking having are of your gear packed for work, even for a little R & R is essential to your overall health.  Why not have an app, which can remind where your gear is located- if you even have the gear at all.
 
 ## Deployment
 ###### [Back to Table of Contents](#Table-of-Contents)
@@ -23,15 +27,25 @@ GitHub Repositories: [Personal Stretch Goal](https://github.com/supercodingninja
 
 ## Demo
 ###### [Back to Table of Contents](#Table-of-Contents)
+### Video: Application Walk-through 👇🏿
+<a href="https://www.youtube.com/watch?v=SznfKe-Axss&feature=youtu.be" alt="Application Walk-through" title="PullRequest" target="_blank"><img align="center" src="public/media/inventorybg.jpg" alt="Application Walk-through" width="100%"/></a>
+
+&nbsp;
 
 ### Video: Pull Request During Group Project 👇🏿
 <a href="https://youtu.be/JKAUO3NEhJE" alt="Page hyperlink to 'Introduction' section." title="PullRequest" target="_blank"><img align="center" src="/public/media//pullRequest.png" alt="Pull request in live project." width="100%"/></a>
 
+&nbsp;
+
 ### Travis Denies Merege Request
 ![Travis](public/media/TravisDenies.png)
 
+&nbsp;
+
 ### Trouble-shooting: Modal Has Incorrect Data Type
 ![Incorrect](public/media/incorrectDataType.png)
+
+&nbsp;
 
 ### Solution: Modal Given Correct Data Type
 ![Correct](public/media/correctDataType.png)
@@ -54,10 +68,10 @@ This project can be used for projects, non-profit organizations, academic clubs;
 ###### [Back to Table of Contents](#Table-of-Contents)
 Following the usage instructions will allow for testing the functionality of the application. If no errors are thrown in the console and the application works, it's 'passing'.
 
-## Contributors
+## Contributions and Guidelines
 ###### [Back to Table of Contents](#Table-of-Contents)
-[Frederick Thomas](https://github.com/supercodingninja)
-#### Earlier Contributions
+I hope you enjoy this repository, and the application's link, given above and below (I love developing new projects).  Please feel free to fork and even collaborate with me on this awesome repository!  Thank you for viewing! - Frederick Thomas, [Super Coding Ninja™](https://github.com/supercodingninja).
+#### Earlier Contributors
 [Laura Gwendolyn Burch](https://github.com/LauraGwendolynBurch), [Gavin Calkins](https://github.com/Gavin867), [Ilya Libershteyn](https://github.com/ilya-libershteyn), and [Meagan Sheehan-James](https://github.com/merikettapearl212)
 
 ## References
@@ -83,11 +97,11 @@ This is a book about JavaScript, programming, and digital wonders. Read it onlin
 
 ## Point of Contact
 ###### [Back to Table of Contents](#Table-of-Contents)
-I hope this repository helps you along your development.  Stay on task, Get Ahead, Change The World! - [Frederick Thomas](https://www.linkedin.com/in/discoverfrederickthomas/), Super Coding Ninja™
+I hope this repository helps you along your development.  Stay on task, Get Ahead, Change The World! * [Frederick Thomas](https://www.linkedin.com/in/discoverfrederickthomas/), Super Coding Ninja™
 
 ## License
 ###### [Back to Table of Contents](#Table-of-Contents)
-![License Icon](https://img.shields.io/badge/license-GPL3.0-informational.svg
+![License Icon](https://img.shields.io/badge/license-GPL3.0-informational.svg)
 
 All Gear Essential. An application which uses mySQL, Sequelize, Node.js and Handlebars to help you track and pack your essential gear.
 
