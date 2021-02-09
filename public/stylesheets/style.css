@@ -7,7 +7,7 @@ form.login {
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap"); 
 
 .intro {
-  background: url(../media/mtRainier.jpg);
+  background: url(../media/intro.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
